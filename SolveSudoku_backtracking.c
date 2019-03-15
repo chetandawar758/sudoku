@@ -11,8 +11,7 @@ int colfind(int n,int sudoku[n][n],int ,int  );
 int boxfind(int n,int sudoku[n][n],int k,int row,int col);
 int main()
 {
-    int n;
-     scanf("%d",&n);
+    int n=9;
     int sudoku[n][n];
     for(int i=0;i<n;i++)
       for(int j=0;j<n;j++)
